@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(211, 211, 211);
+    margin: 0;
+}
+h1{
+    display: flex;
+    font-size: 3em;
+    font-family: sans-serif;
+    justify-content: center;
+}
+.all{
+    background-color: rgb(211, 211, 211);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh; 
+    margin: 0; 
+    align-items: center;
+    flex-direction: column;
+}
+.allcont {
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    background-color: #ebe7e7;
+    padding-inline-start: 2em;
+    border-radius: 1.2em;
+    padding-right: 32px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+
+}
+
+.cont1:hover {
+    background-color: linear-gradient(145deg, #ffffff, #bebcbc);
+    box-shadow:  8px 8px 16px #c1c1c1,
+             -8px -8px 16px #ffffff;
+             cursor:pointer;
+}
+
+.cont2:hover {
+    background-color: linear-gradient(145deg, #ffffff, #bebcbc);
+    box-shadow:  8px 8px 16px #c1c1c1,
+             -8px -8px 16px #ffffff;
+             cursor:pointer;
+}
+
+.cont3:hover {
+    background-color: linear-gradient(145deg, #ffffff, #bebcbc);
+    box-shadow:  8px 8px 16px #c1c1c1,
+             -8px -8px 16px #ffffff;
+    cursor:pointer;
+}
+
+.cont4:hover {
+    background-color: linear-gradient(145deg, #ffffff, #bebcbc);
+    box-shadow:  8px 8px 16px #c1c1c1,
+             -8px -8px 16px #ffffff;
+    cursor:pointer;
+}
+
+.cont1,
+.cont2,
+.cont3,
+.cont4 {
+    border-radius: 15px;
+    border-width: 2px;
+    background: linear-gradient(145deg, #ffffff, #b0b0b0);
+    transition: 0.9s;
+    box-shadow: -2px -1px 8px 0px #6b6a6a6a, 2px 1px 8px 0px rgba(114, 115, 116, 0.48);
+    font-size: 1.2em;
+    font-family: sans-serif;
+    padding: 50px;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    
+}
+
+.out{
+    
+    margin-bottom: 0.5em;
+    margin-left: 1em;
+    font-size: 1.2em;
+    border-style: none;
+    padding: 10px;
+    border-radius: 9px;
+    
+}
+.out:hover{
+    background-color: #840d0db6;
+}
+.bout {
+    display: flex;
+    justify-content: center;
+}

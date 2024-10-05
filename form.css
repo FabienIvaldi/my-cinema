@@ -1,0 +1,35 @@
+body{
+    
+    font-family: sans-serif;
+    background-color: rgb(211, 211, 211);
+}
+
+.allform {
+    padding-top: 3em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    justify-content: center;
+    margin: auto;
+    max-width: 20em;
+}
+
+.div{
+    display: flex;
+    flex-direction: column;
+} 
+.sub {
+    margin-bottom: 2em;
+}
+.input{
+    border-style: none;
+    padding: 1em;
+    border-radius: 9px;
+
+}
+
+.button2 {
+    display: flex;
+    max-width: 20em;
+    margin:auto;
+}

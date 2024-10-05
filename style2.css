@@ -1,0 +1,107 @@
+a:hover{
+    color: rgb(254, 254, 254);
+    background-color: rgba(103, 103, 103, 0.371);
+    
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.footer {
+    background-color: rgba(167, 167, 167, 0.86);
+
+
+}
+h1{
+    margin-top: 1em;
+    display: flex;
+    justify-content: center
+}
+#sub {
+    background-color: rgba(167, 167, 167, 0.86);
+
+    padding: 0.2em;
+    border: 1 none;
+}
+.submit{
+    padding: 0.2em;
+    border-style: none;
+    font-size: 15px;
+    background-color: rgb(154, 219, 153);
+}
+option{
+    padding: 0.2em;
+    margin-left: 2em;
+}
+body {
+    max-width: 1200px;
+    margin: auto;
+    background-color: rgb(211, 211, 211);
+    font-family: sans-serif;
+}
+.member {
+    display: flex;
+    justify-content: center;
+    margin-right: 5em;
+    color: rgb(36, 35, 35);
+    text-decoration: none;
+    padding: 1em;
+
+}
+.tableau{
+    margin-top: 2em;
+}
+.input {
+    display: flex;
+    margin-bottom: 20px;
+    border-style: none;
+    justify-content: center;
+}
+
+.search {
+    width: 200px;
+    border-style: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+table,td{
+    border-style: none;
+    
+   
+}
+td{
+    text-align: center;
+    
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+
+}
+table{
+    display: flex;
+    justify-content: center;
+   
+}
+tbody{
+    border-style: solid;
+    padding: 1em;
+    border-color: rgb(137, 137, 137);
+}
+th{ 
+    width: 13em;
+    padding: 0.3em;
+    border-radius: 15px;
+    border-width: 2px;
+    border-style: solid;
+}
+.tableau2{
+
+    background-color: rgba(167, 167, 167, 0.86);
+    margin-top: 2em;
+    
+}
